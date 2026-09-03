@@ -83,6 +83,9 @@ jobs:
           lunch fox_mustang-eng || lunch twrp_mustang-eng
           mka vendorbootimage -j$(nproc --all)
 
+          # Pad vendor_boot.img to exact 64MB partition size (67108864 bytes)
+          truncate -s 67108864 out/target/product/mustang/vendor_boot.img
+
       - name: Upload Recovery Artifact
         uses: actions/upload-artifact@v4
         with:
