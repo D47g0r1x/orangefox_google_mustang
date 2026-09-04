@@ -27,7 +27,7 @@ Welcome to the official port of the **OrangeFox Recovery Project (OFRP)** for th
 | **Architecture** | ARM64 (`armv8-a` / `armv9-a` cores, 64-bit only) |
 | **Kernel Type** | GKI (Generic Kernel Image) with Boot Header v4 |
 | **Target Partition** | `vendor_boot` (`/dev/block/platform/3c400000.ufs/by-name/vendor_boot`) |
-| **Firmware Base** | Android 17 (`CP2A.260805.005`, August 2026 patch level) |
+| **Firmware Base** | Android 16 (`CP1A.260505.005`, May 2026 patch level) |
 | **Maintainer** | `D47g0r1x` |
 
 ---
