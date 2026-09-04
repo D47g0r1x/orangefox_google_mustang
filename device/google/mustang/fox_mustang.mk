@@ -41,4 +41,4 @@ PRODUCT_GMS_CLIENTID_BASE := android-google
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME=mustang \
     TARGET_DEVICE=mustang \
-    BUILD_FINGERPRINT="google/mustang/mustang:17/CP2A.260805.005/15828068:user/release-keys"
+    BUILD_FINGERPRINT="google/mustang/mustang:16/CP1A.260505.005/15081906:user/release-keys"

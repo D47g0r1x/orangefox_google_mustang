@@ -143,9 +143,14 @@ TW_INCLUDE_CRYPTO := true
 TW_INCLUDE_CRYPTO_FBE := true
 TW_INCLUDE_FBE_METADATA_DECRYPT := true
 
+# Platform Security Patch Level & Version (Base: CP2A.260605.012_Minus_2)
+PLATFORM_SECURITY_PATCH := 2026-05-05
+PLATFORM_VERSION := 17
+PLATFORM_VERSION_LAST_STABLE := 17
+
 # System Property Overrides for FBE Key Derivation
 TW_OVERRIDE_SYSTEM_PROPS := \
-    "ro.build.version.sdk=37;ro.build.version.release=17"
+    "ro.build.version.sdk=37;ro.build.version.release=16;ro.build.version.security_patch=2026-05-05"
 
 # -----------------------------------------------------------------------------
 # OrangeFox Recovery Project (OFRP) Configuration Flags
